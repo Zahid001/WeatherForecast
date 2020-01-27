@@ -14,8 +14,15 @@ class RequestHandler{
     
     static let shared = RequestHandler()
     
-    private init(){}
+    var dayData:[Data?]
+        = []
+    //private init(){}
     
+    func getResponseModel(responseModel:Any)->Any{
+        
+        
+        return responseModel
+    }
     //    func getRequestWithHeader(urlExtension:String){
     //
     //        let headers = [
